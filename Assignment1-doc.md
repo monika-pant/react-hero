@@ -15,6 +15,7 @@
   
 - Why is React known as React?
   - Source: https://github.com/facebook/react/issues/14606 and https://reactjs.org/blog/2016/09/28/our-first-50000-stars.html#fbolt-is-born 
+  - Jordan Walke: I might add for the sake of discussion, that many systems advertise some kind of reactivity, but they usually require that you set up some kind of point-to-point listeners and won’t work on structured data. This API reacts to any state or property changes, and works with data of any form (as deeply structured as the graph itself) so I think the name is fitting.
 - What is crossorigin in script tag?
 - What is diference between React and ReactDOM
 - What is difference between react.development.js and react.production.js files via CDN?
