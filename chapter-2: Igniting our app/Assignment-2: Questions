@@ -4,8 +4,28 @@ put down your thoughts into words by yourself in your own words. (This will help
 muscle memory and you will remember all the concepts properly) ✌
 # Theory Assignment:
 ● - What is `NPM`?
+  NPM does not only means Node package manager, but npm is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.
+  npm consists of three distinct components:
+  the website
+  the Command Line Interface (CLI)
+  the registry
+
 ● - What is `Parcel/Webpack`? Why do we need it?
+  Parcel and Webpack are both popular JavaScript bundlers.
+  A bundler is a tool that takes your JavaScript code and its dependencies, and combines them into a single file (or a few files) for deployment in the browser. This process is known as "bundling."
+  Parcel is a relatively new and easy-to-use bundler that is designed to work out of the box with minimal configuration. It automatically performs tasks such as bundling, minification, and transpilation of code, and supports modern JavaScript features such as ES6 modules.
+  Webpack, on the other hand, is a more established and powerful bundler that requires more configuration but offers more customization options. It supports a wide range of loaders and plugins, and can be used for a variety of tasks beyond just bundling, such as code splitting, asset optimization, and library optimization.
+  Both Parcel and Webpack serve the same purpose, but the choice between them ultimately depends on the specific requirements of your project. For simple projects with limited dependencies, Parcel might be a good choice due to its ease of use. For more complex projects with more advanced requirements, Webpack might be a better choice due to its versatility and customization options.
+  In summary, we need JavaScript bundlers like Parcel and Webpack to optimize and simplify the deployment of complex JavaScript applications in the browser.
+
+
+
+
 ● - What is `.parcel-cache`
+  parcel-cache is a directory created by the Parcel JavaScript bundler to store cache files. The cache files contain information about the processed assets and modules in your application, which allows Parcel to quickly and efficiently rebuild your application when changes are made.
+  For example, if you make changes to your source code, Parcel will compare the new code with the cache files in the .parcel-cache directory to determine which parts of the application need to be rebuilt. By using the cache, Parcel can significantly speed up the build process and reduce the time it takes to see your changes reflected in the browser.
+  It's important to note that the .parcel-cache directory is hidden by default, and it's not necessary to interact with it directly. However, you can clear the cache files if you encounter any issues with your builds, or if you want to force Parcel to rebuild your entire application from scratch.
+
 ● - What is `npx` ?
 ● - What is difference between `dependencies` vs `devDependencies`
 ● - What is Tree Shaking?
